@@ -1,3 +1,5 @@
+import { CarProps } from "@/types";
+
 export async function fetchCars() {
     const headers = {
             'x-rapidapi-key': '6d7edf835amsha901492b77640e4p1d6a98jsn1d16d09dba4f',
